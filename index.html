@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicBox</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Regra geral, o website tem 1 contentor -->
+    <div class="container">
+
+        
+         <!-- ÁREA "Menu" -->  
+         <div class="row">
+            <div class="col-md-2">
+                <a href="index.html">
+                    <img src="Imagens/MusicBox_Logo.jpg" alt="MusicBox" class="img-fluid">   
+                </a>
+            </div>
+            <div class="col-md-8">
+              <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Music</a>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Reviews</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>              
+            </div>
+            <div class="col-md-2">
+              <a href="#">
+                <img src="https://placehold.co/36x36" alt="" class="img-fluid">
+              </a>
+              <a href="#">
+                <img src="https://placehold.co/36x36" alt="" class="img-fluid">
+              </a>
+              <a href="#">
+                <img src="https://placehold.co/36x36" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+<!-- ÁREA "Carrossel" -->  
+          <div class="row">
+            <div class="col-md-12">
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://placehold.co/1400x600" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <div>                        
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="What have you been listening to?">
+                        <datalist id="datalistOptions">
+                          <option value="San Francisco">
+                          <option value="New York">
+                          <option value="Seattle">
+                          <option value="Los Angeles">
+                          <option value="Chicago">
+                        </datalist>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://placehold.co/1400x600" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <div>                        
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="What have you been listening to?">
+                        <datalist id="datalistOptions">
+                          <option value="San Francisco">
+                          <option value="New York">
+                          <option value="Seattle">
+                          <option value="Los Angeles">
+                          <option value="Chicago">
+                        </datalist>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://placehold.co/1400x600" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <div>                        
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="What have you been listening to?">
+                        <datalist id="datalistOptions">
+                          <option value="San Francisco">
+                          <option value="New York">
+                          <option value="Seattle">
+                          <option value="Los Angeles">
+                          <option value="Chicago">
+                        </datalist>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>              
+            </div>
+          </div>
+
+            </div><!-- Fim de área "Carrossel" -->
+      
+
+        <!-- ÁREA "Popular This Week" -->
+        <div class="row">
+          <div class="col-md-2">
+            <h1>POPULAR THIS WEEK</h1>
+          </div>
+          <div class="col-md-2">
+            <a href="https://open.spotify.com/album/5zi7WsKlIiUXv09tbGLKsE?si=8DI9lzO4Qj6fma6InnYWuw" target="_blank"><img src="Imagens/TylerTheCreator_IGOR.jpg" alt="#" class="img-fluid"></a>
+                  <h2>IGOR</h2>
+                  <h2>Tyler, The Creator</h2>
+          </div>   
+          <div class="col-md-2">
+            <a href="https://open.spotify.com/album/3mH6qwIy9crq0I9YQbOuDf?si=l8jl_13HThKywRADIuKVng" target="_blank"><img src="Imagens/FrankOcean_Blonde.jpeg" alt="#" class="img-fluid"></a>
+                  <h2>Blonde</h2>
+                  <h2>Frank Ocean</h2>
+          </div>    
+          <div class="col-md-2">
+                  <a href="https://open.spotify.com/album/7ycBtnsMtyVbbwTfJwRjSP?si=d0kfy1YMTeWl0-c3nITLXw" target="_blank"><img src="Imagens/KendrickLamar_ToPimpaButterfly.jpg" alt="#" class="img-fluid"></a>
+                  <h2>To Pimp a Butterfly</h2>
+                  <h2>Kendrick Lamar</h2>
+          </div>
+          <div class="col-md-2">
+                  <a href="https://open.spotify.com/album/07w0rG5TETcyihsEIZR3qG?si=3D9KOh0xToOwq7aZ4n__HQ" target="_blank"><img src="Imagens/SZA_SOS.png" alt="#" class="img-fluid"></a>
+                  <h2>SOS</h2>
+                  <h2>SZA</a></h2>
+          </div>
+          <div class="col-md-2">
+                  <a href="https://open.spotify.com/album/78bpIziExqiI9qztvNFlQu?si=_mKThoQVQ_C8gJynT-ImLA" target="_blank"><img src="Imagens/ArcticMonkeys_AM.jpeg" alt="#" class="img-fluid"></a>
+                  <h2>AM</h2>
+                  <h2>Arctic Monkeys</h2>
+          </div>
+        </div>
+
+      </div><!-- Fim de contentor-->
+ 
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+ <!-- ÁREA "Reviews e News" -->
+ <div class="row">
+
+
+
+
+  <!-- ÁREA "Rodapé" -->
+  <div class="row">
+    <div class="col-md-2">
+
+
+<body>
+</html>
